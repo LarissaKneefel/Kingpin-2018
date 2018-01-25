@@ -1,0 +1,17 @@
+MS = Model Sheet
+CA = Concept Art
+A = Animation
+DMT = Diffuse Map Texture
+NMT = Normal Map Texture
+R = Rigg
+C = Code
+LPM = Low Poly Model
+HPM = High Poly Model
+SP = Sprite
+V = Video
+S = Sound
+L = Lighting
+M = Material
+F = File(photoshop, substance painter, etc)
+Q = Quest
+ST = Story

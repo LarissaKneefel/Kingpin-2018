@@ -1,0 +1,7 @@
+Model Sheet for Weapon
+-Front View
+-Left View
+-Right View
+-Upper View
+-Under View
+-First Person View

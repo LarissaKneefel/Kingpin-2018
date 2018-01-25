@@ -1,0 +1,3 @@
+C:\Users\LTK19\Documents\GitHub\Kingpin-2018\Kingpin 2018\Data\UnrealEngine4_Game_Kingpin_2018\Kingpin2018\Source\Kingpin2018\Kingpin2018.Build.cs
+C:\Users\LTK19\Documents\GitHub\Kingpin-2018\Kingpin 2018\Data\UnrealEngine4_Game_Kingpin_2018\Kingpin2018\Source\Kingpin2018.Target.cs
+C:\Users\LTK19\Documents\GitHub\Kingpin-2018\Kingpin 2018\Data\UnrealEngine4_Game_Kingpin_2018\Kingpin2018\Source\Kingpin2018Editor.Target.cs

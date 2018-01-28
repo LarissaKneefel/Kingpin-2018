@@ -1,0 +1,901 @@
+﻿Log file open, 01/28/18 16:56:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Kingpin2018
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1521413361) SRandInit(-1521413361).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.168699
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: E:/Prive/Gamedesign/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.28-15.56.05:854][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.28-15.56.05:854][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.28-15.56.05:867][  0]LogInit: Computer: DESKTOP-8ALJVJM
+[2018.01.28-15.56.05:867][  0]LogInit: User: LTK19
+[2018.01.28-15.56.05:867][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.28-15.56.05:867][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.01.28-15.56.05:867][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.28-15.56.05:867][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.28-15.56.05:867][  0]LogMemory: Process Physical Memory: 280.66 MB used, 280.66 MB peak
+[2018.01.28-15.56.05:867][  0]LogMemory: Process Virtual Memory: 274.44 MB used, 274.44 MB peak
+[2018.01.28-15.56.05:867][  0]LogMemory: Physical Memory: 5455.86 MB used,  10813.98 MB free, 16269.84 MB total
+[2018.01.28-15.56.05:867][  0]LogMemory: Virtual Memory: 702.75 MB used,  10813.98 MB free, 134217728.00 MB total
+[2018.01.28-15.56.05:989][  0]LogInit: Using OS detected language (nl-NL).
+[2018.01.28-15.56.05:989][  0]LogInit: Using OS detected locale (nl-NL).
+[2018.01.28-15.56.05:992][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the language.
+[2018.01.28-15.56.05:992][  0]LogTextLocalizationManager: No localization for 'nl-NL' exists, so 'en' will be used for the locale.
+[2018.01.28-15.56.06:675][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.28-15.56.06:733][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.01.28-15.56.06:733][  0]LogD3D11RHI:       4029/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.28-15.56.06:742][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.01.28-15.56.06:742][  0]LogD3D11RHI:       128/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.28-15.56.06:744][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.28-15.56.06:744][  0]LogD3D11RHI:       0/0/8134 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.28-15.56.06:744][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.28-15.56.06:751][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.28-15.56.06:751][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.01.28-15.56.06:751][  0]LogWindows: EnumDisplayDevices:
+[2018.01.28-15.56.06:751][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.01.28-15.56.06:752][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.28-15.56.06:752][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.28-15.56.06:752][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.01.28-15.56.06:752][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.01.28-15.56.06:752][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.01.28-15.56.06:752][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.01.28-15.56.06:752][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.28-15.56.06:752][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.01.28-15.56.06:752][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.28-15.56.06:752][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.28-15.56.06:752][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.28-15.56.06:778][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.28-15.56.06:790][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.28-15.56.06:791][  0]LogShaderCompilers: Guid format shader working directory is -60 characters bigger than the processId version (C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Intermediate/Shaders/WorkingDirectory/3504/).
+[2018.01.28-15.56.06:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LTK19/AppData/Local/Temp/UnrealShaderWorkingDir/564CAF9444309566B29848B7CCDABEBF/'.
+[2018.01.28-15.56.06:791][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.28-15.56.07:739][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.28-15.56.07:785][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.28-15.56.07:824][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.28-15.56.07:866][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.28-15.56.07:906][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.28-15.56.07:947][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.28-15.56.07:989][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.28-15.56.08:032][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.28-15.56.08:064][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.28-15.56.08:104][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.28-15.56.08:144][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.28-15.56.08:187][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.28-15.56.08:230][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.28-15.56.08:284][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.28-15.56.08:332][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.28-15.56.08:415][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.28-15.56.08:415][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.28-15.56.08:451][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.28-15.56.08:535][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.28-15.56.08:561][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.28-15.56.08:609][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.28-15.56.08:653][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.28-15.56.08:693][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.28-15.56.08:742][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.28-15.56.08:742][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.28-15.56.09:109][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.28-15.56.09:210][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/LTK19/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.28-15.56.09:210][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LTK19/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.28-15.56.09:210][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.28-15.56.09:210][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.28-15.56.09:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.28-15.56.09:211][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.28-15.56.09:230][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.28-15.56.09:242][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LTK19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.28-15.56.09:252][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.28-15.56.09:252][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.28-15.56.09:253][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.28-15.56.09:253][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.28-15.56.09:519][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2018.01.28-15.56.09:636][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.28-15.56.09:774][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.28-15.56.10:012][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.28-15.56.10:042][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.28-15.56.10:042][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.28-15.56.10:042][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.28-15.56.10:042][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.28-15.56.10:042][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.28-15.56.10:369][  0]LogNetVersion: Kingpin2018 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2620436889)
+[2018.01.28-15.56.10:545][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.033275 seconds
+[2018.01.28-15.56.10:551][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.01.28-15.56.10:551][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.01.28-15.56.10:551][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.28-15.56.10:603][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.28-15.56.12:761][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.28-15.56.12:792][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.28-15.56.13:288][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.28-15.56.13:604][  0]SourceControl: Source control is disabled
+[2018.01.28-15.56.13:604][  0]SourceControl: Source control is disabled
+[2018.01.28-15.56.13:640][  0]SourceControl: Source control is disabled
+[2018.01.28-15.56.13:673][  0]SourceControl: Source control is disabled
+[2018.01.28-15.56.14:091][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.28-15.56.14:293][  0]LogOcInput: OculusInput pre-init called
+[2018.01.28-15.56.14:482][  0]LogEngine: Initializing Engine...
+[2018.01.28-15.56.14:484][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.28-15.56.14:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.28-15.56.14:741][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.28-15.56.14:838][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.28-15.56.14:851][  0]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-15.56.14:876][  0]LogInit: FAudioDevice initialized.
+[2018.01.28-15.56.14:981][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/LTK19/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.28-15.56.14:994][  0]LogInit: Texture streaming: Enabled
+[2018.01.28-15.56.15:075][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.28-15.56.15:075][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={0F2B6D0B-4AD3-E1DA-5D20-8F89D6818703}
+[2018.01.28-15.56.15:238][  0]LogInit: Transaction tracking system initialized
+[2018.01.28-15.56.15:463][  0]BlueprintLog: New page: Editor Load
+[2018.01.28-15.56.16:152][  0]LocalizationService: Localization service is disabled
+[2018.01.28-15.56.16:541][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.01.28-15.56.16:541][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.01.28-15.56.16:541][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.01.28-15.56.16:672][  0]LogConsoleResponse: Display: 
+[2018.01.28-15.56.16:845][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.28-15.56.16:846][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.28-15.56.16:846][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.28-15.56.16:961][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/' took 0.02s
+[2018.01.28-15.56.17:653][  0]SourceControl: Source control is disabled
+[2018.01.28-15.56.17:718][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.17:719][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.17:750][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.28-15.56.38:675][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.38:675][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.38:677][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.38:677][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.43:788][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.43:788][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.43:792][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.43:792][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-15.56.43:917][  0]LightingResults: New page: Lighting Build
+[2018.01.28-15.56.43:953][  0]MapCheck: New page: Map Check
+[2018.01.28-15.56.43:953][  0]LightingResults: New page: Lighting Build
+[2018.01.28-15.56.44:485][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.28-15.56.44:501][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.28-15.56.44:532][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.28-15.56.44:578][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.405ms to complete.
+[2018.01.28-15.56.44:578][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.661
+[2018.01.28-15.56.44:667][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2b88_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_3164_0///####STATCAT_Advanced####
+[2018.01.28-15.56.44:667][  0]LogCollectionManager: Loaded 0 collections in 0.000698 seconds
+[2018.01.28-15.56.44:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Collections/' took 0.01s
+[2018.01.28-15.56.44:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/Developers/LTK19/Collections/' took 0.01s
+[2018.01.28-15.56.44:737][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/Collections/' took 0.01s
+[2018.01.28-15.56.44:737][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.28-15.56.44:745][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2386 classes and 500 folders.
+[2018.01.28-15.56.44:813][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.01.28-15.56.44:845][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.28-15.56.44:875][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.28-15.56.44:902][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.28-15.56.44:908][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.28-15.56.45:044][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.28-15.56.45:243][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.28-15.56.45:243][  0]LogLoad: (Engine Initialization) Total time: 40.70 seconds
+[2018.01.28-15.56.45:243][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.28-15.56.45:244][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.28-15.56.45:285][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.28-15.56.45:304][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-15.56.45:320][  1]LogAssetRegistry: Asset discovery search completed in 35.8236 seconds
+[2018.01.28-15.56.45:322][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.28-15.56.45:322][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2018.01.28-15.56.47:834][147]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.28-15.56.47:884][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-15.56.47:884][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-15.56.47:884][147]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 28, 2018, 5:56:47 PM)
+[2018.01.28-15.56.47:885][147]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.28-15.56.47:902][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017412s)
+[2018.01.28-15.56.47:904][147]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.28-15.56.47:904][147]LogPlayLevel: PIE: World Init took: (0.001669s)
+[2018.01.28-15.56.47:905][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019581s)
+[2018.01.28-15.56.47:919][147]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-15.56.47:944][147]LogInit: FAudioDevice initialized.
+[2018.01.28-15.56.47:997][147]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.28-15.56.48:002][147]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.01.28-16.56.48
+[2018.01.28-15.56.48:002][147]LogWorld: Bringing up level for play took: 0.002322
+[2018.01.28-15.56.48:041][147]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.01.28-15.56.48:044][147]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.064
+[2018.01.28-15.56.48:044][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-15.56.52:047][385]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-15.56.52:081][385]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-15.57.03:272][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse'
+[2018.01.28-15.57.03:273][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset.
+[2018.01.28-15.57.03:273][ 54]LoadErrors: Error: /Game/kingpin2018/Weapons/Rifle-AK47/AKMat : Can't find file for asset. /Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse
+[2018.01.28-15.57.03:273][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal'
+[2018.01.28-15.57.03:273][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset.
+[2018.01.28-15.57.03:273][ 54]LoadErrors: Error: /Game/kingpin2018/Weapons/Rifle-AK47/AKMat : Can't find file for asset. /Game/kingpin2018/Weapons/Rifle-AK47/AK_normal
+[2018.01.28-15.57.03:273][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular'
+[2018.01.28-15.57.03:273][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset.
+[2018.01.28-15.57.03:273][ 54]LoadErrors: Error: /Game/kingpin2018/Weapons/Rifle-AK47/AKMat : Can't find file for asset. /Game/kingpin2018/Weapons/Rifle-AK47/AK_specular
+[2018.01.28-15.57.03:273][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse'
+[2018.01.28-15.57.03:273][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset.
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal'
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset.
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular'
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset.
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset'
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK.uasset.
+[2018.01.28-15.57.03:274][ 54]LoadErrors: Error: /Game/kingpin2018/Weapons/Rifle-AK47/AK : Can't find file for asset. /Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton'
+[2018.01.28-15.57.03:274][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK.uasset.
+[2018.01.28-15.57.03:275][ 54]LoadErrors: Error: /Game/kingpin2018/Weapons/Rifle-AK47/AK : Can't find file for asset. /Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton
+[2018.01.28-15.57.03:275][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset'
+[2018.01.28-15.57.03:275][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK.uasset.
+[2018.01.28-15.57.03:275][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton'
+[2018.01.28-15.57.03:275][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton' while loading C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK.uasset.
+[2018.01.28-15.57.03:276][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton'
+[2018.01.28-15.57.03:276][ 54]LoadErrors: Failed to load /Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton.AK_Skeleton Referenced by AK
+[2018.01.28-15.57.03:276][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton' while loading NULL.
+[2018.01.28-15.57.03:276][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset'
+[2018.01.28-15.57.03:276][ 54]LoadErrors: Failed to load /Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset.AK_PhysicsAsset Referenced by AK
+[2018.01.28-15.57.03:276][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset' while loading NULL.
+[2018.01.28-15.57.03:279][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse'
+[2018.01.28-15.57.03:279][ 54]LoadErrors: Failed to load /Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse.AK_diffuse Referenced by MaterialExpressionTextureSample_0
+[2018.01.28-15.57.03:279][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse' while loading NULL.
+[2018.01.28-15.57.03:280][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular'
+[2018.01.28-15.57.03:280][ 54]LoadErrors: Failed to load /Game/kingpin2018/Weapons/Rifle-AK47/AK_specular.AK_specular Referenced by MaterialExpressionTextureSample_1
+[2018.01.28-15.57.03:280][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular' while loading NULL.
+[2018.01.28-15.57.03:280][ 54]LogLinker: Warning: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal'
+[2018.01.28-15.57.03:280][ 54]LoadErrors: Failed to load /Game/kingpin2018/Weapons/Rifle-AK47/AK_normal.AK_normal Referenced by MaterialExpressionTextureSample_2
+[2018.01.28-15.57.03:280][ 54]LogLinker: Warning: Can't find file for asset '/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal' while loading NULL.
+[2018.01.28-15.57.03:282][ 54]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.57.03:282][ 54]LogMaterial: Warning: Failed to compile Material /Game/kingpin2018/Weapons/Rifle-AK47/AKMat.AKMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.28-15.57.03:282][ 54]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.01.28-15.57.03:287][ 54]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-15.57.05:485][ 54]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.28-15.57.05:489][ 54]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.28-15.57.05:617][ 54]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.01.28-15.57.07:870][171]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.28-15.57.07:931][171]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.01.28-15.57.07:973][171]LogRenderer: Reallocating scene render targets to support 1208x888 Format 10 NumSamples 1 (Frame:1).
+[2018.01.28-15.57.29:562][872]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\LTK19\Pictures\FPSAssets\Weapon\AK.obj)
+[2018.01.28-15.57.29:594][872]LogFbx: Loading FBX Scene from C:\Users\LTK19\Pictures\FPSAssets\Weapon\AK.obj
+[2018.01.28-15.57.29:662][872]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-15.57.34:828][872]LogFbx: Loading FBX Scene from C:\Users\LTK19\Pictures\FPSAssets\Weapon\AK.obj
+[2018.01.28-15.57.34:900][872]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.28-15.57.34:901][872]LogFbx: =================================================
+[2018.01.28-15.57.34:901][872]LogFbx: Dumping Node START [AK] 
+[2018.01.28-15.57.34:901][872]LogFbx: 	Total Deformer Count 1820459528.
+[2018.01.28-15.57.34:901][872]LogFbx: 	Attribute () Type (4).
+[2018.01.28-15.57.34:901][872]LogFbx: 		[Node Attribute Child 1] AK (Type Mesh).
+[2018.01.28-15.57.34:901][872]LogFbx: Dumping Node END [AK]
+[2018.01.28-15.57.34:901][872]LogFbx: =================================================
+[2018.01.28-15.57.34:901][872]LogFbx: Dumping Node START [AK] 
+[2018.01.28-15.57.34:901][872]LogFbx: 	Total Deformer Count 1820459528.
+[2018.01.28-15.57.34:901][872]LogFbx: 	Attribute () Type (4).
+[2018.01.28-15.57.34:901][872]LogFbx: 		[Node Attribute Child 1] AK (Type Mesh).
+[2018.01.28-15.57.34:901][872]LogFbx: Dumping Node END [AK]
+[2018.01.28-15.57.34:901][872]LogFbx: =================================================
+[2018.01.28-15.57.34:901][872]LogFbx: Dumping Node START [AK] 
+[2018.01.28-15.57.34:901][872]LogFbx: 	Total Deformer Count 1820459528.
+[2018.01.28-15.57.34:901][872]LogFbx: 	Attribute () Type (4).
+[2018.01.28-15.57.34:901][872]LogFbx: 		[Node Attribute Child 1] AK (Type Mesh).
+[2018.01.28-15.57.34:901][872]LogFbx: Dumping Node END [AK]
+[2018.01.28-15.57.34:902][872]LogLinker: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AKMat'
+[2018.01.28-15.57.34:902][872]LogLinker: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AKMat'
+[2018.01.28-15.57.34:902][872]LogMaterial: Warning: Material /Game/kingpin2018/Weapons/Rifle-AK47/AKMat.AKMat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.01.28-15.57.34:904][872]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.57.34:953][872]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.57.34:986][872]LogFbx: Triangulating skeletal mesh AK
+[2018.01.28-15.57.35:864][872]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.01.28-15.57.36:137][872]LogSkeletalMesh: Section 0: 5823 vertices, 1 active bones
+[2018.01.28-15.57.36:152][872]LogSkeletalMesh: Section 0: Material=0, 8892 triangles
+[2018.01.28-15.57.36:157][872]LogLinker: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton'
+[2018.01.28-15.57.36:157][872]LogLinker: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton'
+[2018.01.28-15.57.36:157][872]LogLinker: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset'
+[2018.01.28-15.57.36:158][872]LogLinker: Can't find file '/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset'
+[2018.01.28-15.57.36:173][872]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.01.28-15.57.36:209][872]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\LTK19\Pictures\FPSAssets\Weapon\AK_diffuse.jpg)
+[2018.01.28-15.57.36:482][872]LogTexture: Display: Building textures: AK_diffuse (AutoDXT, 2048X2048)
+[2018.01.28-15.57.38:662][872]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\LTK19\Pictures\FPSAssets\Weapon\AK_normal.jpg)
+[2018.01.28-15.57.38:985][872]LogTexture: Display: Building textures: AK_normal (BC5, 2048X2048)
+[2018.01.28-15.57.39:491][872]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-15.57.39:514][872]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\LTK19\Pictures\FPSAssets\Weapon\AK_specular.jpg)
+[2018.01.28-15.57.39:582][872]LogTexture: Display: Building textures: AK_specular (AutoDXT, 2048X2048)
+[2018.01.28-15.57.46:891][265]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.01.28-15.57.46:894][265]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.57.46:969][265]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.57.46:997][265]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.57.47:052][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.28-15.57.47:064][265]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.28-15.57.51:160][439]MaterialEditorStats: Base pass shader: 80 instructions
+[2018.01.28-15.57.51:161][439]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.28-15.57.51:161][439]MaterialEditorStats: Texture samplers: 1/16
+[2018.01.28-15.57.53:321][568]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.57.57:477][762]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.01.28-15.57.57:477][762]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.28-15.57.57:477][762]MaterialEditorStats: Texture samplers: 1/16
+[2018.01.28-15.58.08:103][257]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.08:128][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-15.58.08:160][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-15.58.10:170][352]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.10:222][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.28-15.58.10:251][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-15.58.10:258][352]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.28-15.58.12:072][435]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.12:116][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.01.28-15.58.12:155][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-15.58.12:163][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.28-15.58.12:170][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.01.28-15.58.16:488][622]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.01.28-15.58.16:488][622]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.01.28-15.58.16:488][622]MaterialEditorStats: Texture samplers: 1/16
+[2018.01.28-15.58.19:364][788]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.19:399][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.28-15.58.22:317][916]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.22:370][916]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.01.28-15.58.25:205][ 40]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.25:264][ 40]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.01.28-15.58.30:055][256]MaterialEditorStats: Base pass shader: 93 instructions
+[2018.01.28-15.58.30:055][256]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.01.28-15.58.30:055][256]MaterialEditorStats: Texture samplers: 4/16
+[2018.01.28-15.58.30:055][256]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.28-15.58.32:972][431]LogMaterialEditor: Applying material AKMat
+[2018.01.28-15.58.33:411][431]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.33:480][431]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.33:530][431]LogMaterial: Missing cached shader map for material AKMat, compiling. 
+[2018.01.28-15.58.33:600][431]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy AKMat, compiling. 
+[2018.01.28-15.58.35:992][431]TextureStreamingBuild: Display: Compiling optional shaders took 2.399 seconds.
+[2018.01.28-15.58.47:653][ 78]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.01.28-15.58.48:873][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2018.01.28-15.58.49:740][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.28-15.58.51:008][269]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.01.28-15.59.30:194][552]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2018.01.28-16.00.33:612][504]BlueprintLog: New page: Compile Weapon_Base
+[2018.01.28-16.01.05:926][108]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.01.28-16.01.05:968][108]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2018.01.28-16.01.18:841][302]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.01.28-16.01.18:874][302]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.01.28-16.04.11:623][647]Cmd: TRANSACTION UNDO
+[2018.01.28-16.04.11:623][647]LogEditorTransaction: Undo Edit Animation
+[2018.01.28-16.04.11:823][647]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.01.28-16.04.11:826][647]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.01.28-16.04.11:977][651]Cmd: TRANSACTION UNDO
+[2018.01.28-16.04.11:977][651]LogEditorTransaction: Undo Translate Socket
+[2018.01.28-16.04.12:176][651]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.01.28-16.04.12:178][651]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.01.28-16.08.09:259][560]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.042
+[2018.01.28-16.08.09:261][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/kingpin2018/Characters/Pirate/Pirate_Skeleton] ([1] browsable assets)...
+[2018.01.28-16.08.09:261][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Characters/Pirate/Pirate_Skeleton]
+[2018.01.28-16.08.09:280][560]LogSavePackage: Save=8.94ms
+[2018.01.28-16.08.09:280][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Pirate_Skeleton_Auto1966E77A54884775A99D852952817BC79.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Characters/Pirate/Pirate_Skeleton_Auto1.uasset'
+[2018.01.28-16.08.09:282][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Characters/Pirate/Pirate_Skeleton_Auto1.uasset
+[2018.01.28-16.08.09:283][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/kingpin2018/Characters/Pirate/Pirate] ([1] browsable assets)...
+[2018.01.28-16.08.09:307][560]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/kingpin2018/Characters/Pirate/Pirate.Pirate]
+[2018.01.28-16.08.09:307][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Characters/Pirate/Pirate]
+[2018.01.28-16.08.09:360][560]LogSavePackage: Save=42.84ms
+[2018.01.28-16.08.09:360][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Pirate_Auto1721A947F4216545D947DCB9CE6A212C5.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Characters/Pirate/Pirate_Auto1.uasset'
+[2018.01.28-16.08.09:363][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Characters/Pirate/Pirate_Auto1.uasset
+[2018.01.28-16.08.09:363][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/kingpin2018/Weapons/Rifle-AK47/AK] ([1] browsable assets)...
+[2018.01.28-16.08.09:386][560]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/kingpin2018/Weapons/Rifle-AK47/AK.AK]
+[2018.01.28-16.08.09:386][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Rifle-AK47/AK]
+[2018.01.28-16.08.09:412][560]LogSavePackage: Save=23.91ms
+[2018.01.28-16.08.09:412][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_Auto1FD0DF3A04DAB2975AC3F27B22B592CF9.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_Auto1.uasset'
+[2018.01.28-16.08.09:414][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_Auto1.uasset
+[2018.01.28-16.08.09:415][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/kingpin2018/Weapons/Rifle-AK47/AKMat] ([1] browsable assets)...
+[2018.01.28-16.08.09:436][560]OBJ SavePackage:     Rendered thumbnail for [Material /Game/kingpin2018/Weapons/Rifle-AK47/AKMat.AKMat]
+[2018.01.28-16.08.09:436][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Rifle-AK47/AKMat]
+[2018.01.28-16.08.09:456][560]LogSavePackage: Save=17.79ms
+[2018.01.28-16.08.09:456][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AKMat_Auto1440885504C30215E5A1BED8E9D714B2E.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AKMat_Auto1.uasset'
+[2018.01.28-16.08.09:458][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AKMat_Auto1.uasset
+[2018.01.28-16.08.09:458][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset] ([1] browsable assets)...
+[2018.01.28-16.08.09:458][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset]
+[2018.01.28-16.08.09:467][560]LogSavePackage: Save=5.06ms
+[2018.01.28-16.08.09:467][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_PhysicsAsset_Auto11CB6B7114A6CCF7EAA99F9B786687287.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset_Auto1.uasset'
+[2018.01.28-16.08.09:469][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset_Auto1.uasset
+[2018.01.28-16.08.09:470][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse] ([1] browsable assets)...
+[2018.01.28-16.08.09:478][560]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse.AK_diffuse]
+[2018.01.28-16.08.09:478][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse]
+[2018.01.28-16.08.09:497][560]LogSavePackage: Save=18.14ms
+[2018.01.28-16.08.09:498][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_diffuse_Auto12773603A4DAA7C9E7E4FFE86351A4AD0.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse_Auto1.uasset'
+[2018.01.28-16.08.09:499][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_diffuse_Auto1.uasset
+[2018.01.28-16.08.09:500][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal] ([1] browsable assets)...
+[2018.01.28-16.08.09:509][560]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/kingpin2018/Weapons/Rifle-AK47/AK_normal.AK_normal]
+[2018.01.28-16.08.09:509][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal]
+[2018.01.28-16.08.09:604][560]LogSavePackage: Save=93.02ms
+[2018.01.28-16.08.09:604][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_normal_Auto16EDE145544B010432684129EC6C0B3C1.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal_Auto1.uasset'
+[2018.01.28-16.08.09:606][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_normal_Auto1.uasset
+[2018.01.28-16.08.09:607][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular] ([1] browsable assets)...
+[2018.01.28-16.08.09:615][560]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/kingpin2018/Weapons/Rifle-AK47/AK_specular.AK_specular]
+[2018.01.28-16.08.09:615][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular]
+[2018.01.28-16.08.09:633][560]LogSavePackage: Save=15.58ms
+[2018.01.28-16.08.09:633][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_specular_Auto1C888C3C044E68420569200ADD26DE620.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular_Auto1.uasset'
+[2018.01.28-16.08.09:635][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_specular_Auto1.uasset
+[2018.01.28-16.08.09:636][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton] ([1] browsable assets)...
+[2018.01.28-16.08.09:636][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton]
+[2018.01.28-16.08.09:644][560]LogSavePackage: Save=5.54ms
+[2018.01.28-16.08.09:644][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_Skeleton_Auto1F0DC30A94109D84B623913B1AA0435C8.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton_Auto1.uasset'
+[2018.01.28-16.08.09:646][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton_Auto1.uasset
+[2018.01.28-16.08.09:646][560]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/kingpin2018/Weapons/Weapon_Base] ([1] browsable assets)...
+[2018.01.28-16.08.09:667][560]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/kingpin2018/Weapons/Weapon_Base.Weapon_Base]
+[2018.01.28-16.08.09:667][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/kingpin2018/Weapons/Weapon_Base]
+[2018.01.28-16.08.09:695][560]LogSavePackage: Save=23.14ms
+[2018.01.28-16.08.09:695][560]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Weapon_Base_Auto14D73DEF0423117290CB7A2A9409AB7B9.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Weapon_Base_Auto1.uasset'
+[2018.01.28-16.08.09:696][560]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Autosaves/Game/kingpin2018/Weapons/Weapon_Base_Auto1.uasset
+[2018.01.28-16.08.09:696][560]LogFileHelpers: Auto-saving content packages took 0.437
+[2018.01.28-16.10.13:629][619]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.28-16.12.46:693][132]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.28-16.12.49:214][253]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.28-16.12.49:244][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.12.49:244][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-16.12.49:245][253]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 28, 2018, 6:12:49 PM)
+[2018.01.28-16.12.49:245][253]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.28-16.12.49:262][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017605s)
+[2018.01.28-16.12.49:263][253]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.28-16.12.49:264][253]LogPlayLevel: PIE: World Init took: (0.001116s)
+[2018.01.28-16.12.49:264][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019112s)
+[2018.01.28-16.12.49:288][253]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-16.12.49:308][253]LogInit: FAudioDevice initialized.
+[2018.01.28-16.12.49:337][253]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.28-16.12.49:339][253]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.01.28-17.12.49
+[2018.01.28-16.12.49:340][253]LogWorld: Bringing up level for play took: 0.001435
+[2018.01.28-16.12.49:342][253]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.638
+[2018.01.28-16.12.49:342][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.13.22:766][257]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.13.22:809][257]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.14.54:409][768]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Kingpin2018
+[2018.01.28-16.14.54:409][768]LogTemp: CWD: E:\Prive\Gamedesign\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.01.28-16.14.54:409][768]LogTemp: Initial Dir: E:\Prive\Gamedesign\Epic Games\UE_4.17
+[2018.01.28-16.14.54:409][768]LogTemp: Env CWD: E:\Prive\Gamedesign\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.01.28-16.14.54:409][768]LogTemp: BranchPath = DESKTOP-8ALJVJM/E/Prive/Gamedesign/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-8ALJVJM/E/Prive/Gamedesign/Epic Games/UE_4.17/Engine/Binaries
+[2018.01.28-16.14.54:409][768]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\LTK19\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.28-16.16.06:524][689]LogSavePackage: Save=55.96ms
+[2018.01.28-16.16.06:524][689]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/ThirdPersonExampleMap1AC1BCC64F6DAC429C4D9BAFBC7C07A3.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.28-16.16.06:529][689]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.28-16.16.06:709][689]LogSavePackage: Save=135.26ms
+[2018.01.28-16.16.06:709][689]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/ThirdPersonExampleMap_BuiltData0BA09DE24FCEEA8D9CC1A0B509BAD64F.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.01.28-16.16.06:711][689]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.01.28-16.16.31:118][ 68]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.28-16.16.31:134][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.16.31:134][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-16.16.31:135][ 68]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 28, 2018, 6:16:31 PM)
+[2018.01.28-16.16.31:135][ 68]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.28-16.16.31:153][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018784s)
+[2018.01.28-16.16.31:155][ 68]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.28-16.16.31:155][ 68]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2018.01.28-16.16.31:156][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021115s)
+[2018.01.28-16.16.31:178][ 68]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.28-16.16.31:198][ 68]LogInit: FAudioDevice initialized.
+[2018.01.28-16.16.31:229][ 68]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.28-16.16.31:232][ 68]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.01.28-17.16.31
+[2018.01.28-16.16.31:232][ 68]LogWorld: Bringing up level for play took: 0.001483
+[2018.01.28-16.16.31:234][ 68]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.746
+[2018.01.28-16.16.31:235][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.17.15:728][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.17.15:785][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.28-16.17.41:216][107]LogSavePackage: Save=63.05ms
+[2018.01.28-16.17.41:216][107]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/ThirdPersonExampleMap47C1264E4766176012795E8BA644567D.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.01.28-16.17.41:218][107]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.01.28-16.17.41:386][107]LogSavePackage: Save=125.98ms
+[2018.01.28-16.17.41:386][107]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/ThirdPersonExampleMap_BuiltData466C57054AB1CB8C1289568AA5DD6916.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.01.28-16.17.41:388][107]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.01.28-16.17.45:702][216]LogSavePackage: Save=35.26ms
+[2018.01.28-16.17.45:702][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/PirateFFA4048D4490A83BCBB21A8073B7BCCF.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Characters/Pirate/Pirate.uasset'
+[2018.01.28-16.17.45:713][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Characters/Pirate/Pirate.uasset
+[2018.01.28-16.17.45:739][216]LogSavePackage: Save=6.15ms
+[2018.01.28-16.17.45:739][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Pirate_Skeleton06548B90401DD5511FCF7397CE79A0FF.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Characters/Pirate/Pirate_Skeleton.uasset'
+[2018.01.28-16.17.45:749][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Characters/Pirate/Pirate_Skeleton.uasset
+[2018.01.28-16.17.45:797][216]LogSavePackage: Save=24.17ms
+[2018.01.28-16.17.45:797][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AKAA2C3AB94F5569DEED8031BBB8C2BA6F.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK.uasset'
+[2018.01.28-16.17.45:805][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK.uasset
+[2018.01.28-16.17.46:471][216]LogSavePackage: Save=649.22ms
+[2018.01.28-16.17.46:472][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_diffuse86173A8348B820ADDC4795961871F856.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_diffuse.uasset'
+[2018.01.28-16.17.46:481][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_diffuse.uasset
+[2018.01.28-16.17.47:271][216]LogSavePackage: Save=772.51ms
+[2018.01.28-16.17.47:271][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_normal32B186474D648749F13F4590EB9FEBDE.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_normal.uasset'
+[2018.01.28-16.17.47:280][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_normal.uasset
+[2018.01.28-16.17.47:294][216]LogSavePackage: Save=5.56ms
+[2018.01.28-16.17.47:294][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_PhysicsAssetF820B8384D42AAB6026799BC008EDCB4.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset.uasset'
+[2018.01.28-16.17.47:302][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_PhysicsAsset.uasset
+[2018.01.28-16.17.47:312][216]LogSavePackage: Save=4.78ms
+[2018.01.28-16.17.47:312][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_SkeletonBD423E4045E545BF882FF9826CE88767.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton.uasset'
+[2018.01.28-16.17.47:322][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_Skeleton.uasset
+[2018.01.28-16.17.47:551][216]LogSavePackage: Save=214.92ms
+[2018.01.28-16.17.47:551][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AK_specular736A0F2348AF80E1417B6399D1B42A4D.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_specular.uasset'
+[2018.01.28-16.17.47:558][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AK_specular.uasset
+[2018.01.28-16.17.47:598][216]LogSavePackage: Save=16.03ms
+[2018.01.28-16.17.47:599][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/AKMatD662B30646E44C16468EA09232C55A20.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset'
+[2018.01.28-16.17.47:605][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Rifle-AK47/AKMat.uasset
+[2018.01.28-16.17.47:648][216]LogSavePackage: Save=21.44ms
+[2018.01.28-16.17.47:648][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Weapon_Base8B593CF44C4AC8012810BEB621119CA4.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Weapon_Base.uasset'
+[2018.01.28-16.17.47:655][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/kingpin2018/Weapons/Weapon_Base.uasset
+[2018.01.28-16.17.47:818][216]LogSavePackage: Save=128.78ms
+[2018.01.28-16.17.47:819][216]LogSavePackage: Moving 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/ThirdPersonCharacterC503E27D4340D951E91DCCAF16B51263.tmp' to 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.28-16.17.47:823][216]LogSavePackage: Display: Finished SavePackage C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.28-16.17.47:907][216]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-16.17.47:908][216]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.28-16.17.48:122][217]Cmd: QUIT_EDITOR
+[2018.01.28-16.17.48:200][217]LogExit: Preparing to exit.
+[2018.01.28-16.17.49:484][217]LogExit: Editor shut down
+[2018.01.28-16.17.49:490][217]LogExit: Transaction tracking system shut down
+[2018.01.28-16.17.49:615][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.28-16.17.49:615][217]LogDirectoryWatcher: A directory notification for 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/' was aborted.
+[2018.01.28-16.17.49:615][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.28-16.17.49:615][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.01.28-16.17.49:615][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.01.28-16.17.49:720][217]LogExit: Object subsystem successfully closed.
+[2018.01.28-16.17.49:737][217]LogD3D11RHI: Shutdown
+[2018.01.28-16.17.49:737][217]LogD3D11RHI: CleanupD3DDevice
+[2018.01.28-16.17.49:856][217]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (546)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module BlueprintGraph (544)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (542)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module MaterialEditor (540)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (538)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (534)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.01.28-16.17.49:864][217]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.01.28-16.17.49:864][217]LogDirectoryWatcher: A directory notification for 'E:/Prive/Gamedesign/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.01.28-16.17.49:875][217]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.01.28-16.17.49:876][217]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.01.28-16.17.49:876][217]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.01.28-16.17.49:876][217]LogDirectoryWatcher: A directory notification for 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/Collections/' was aborted.
+[2018.01.28-16.17.49:876][217]LogDirectoryWatcher: A directory notification for 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Content/Developers/LTK19/Collections/' was aborted.
+[2018.01.28-16.17.49:876][217]LogDirectoryWatcher: A directory notification for 'C:/Users/LTK19/Documents/GitHub/Kingpin-2018/Kingpin 2018/Data/UnrealEngine4_Game_Kingpin_2018/Kingpin2018/Saved/Collections/' was aborted.
+[2018.01.28-16.17.49:876][217]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.01.28-16.17.49:876][217]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.01.28-16.17.49:876][217]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.01.28-16.17.49:877][217]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.01.28-16.17.49:878][217]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.01.28-16.17.49:898][217]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.01.28-16.17.49:960][217]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.01.28-16.17.49:960][217]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.01.28-16.17.49:960][217]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.01.28-16.17.49:960][217]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.01.28-16.17.49:960][217]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.01.28-16.17.49:960][217]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.01.28-16.17.49:961][217]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.01.28-16.17.49:961][217]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.01.28-16.17.49:961][217]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.01.28-16.17.49:961][217]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.01.28-16.17.49:983][217]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.01.28-16.17.49:988][217]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.01.28-16.17.49:989][217]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.01.28-16.17.50:072][217]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.01.28-16.17.50:073][217]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.01.28-16.17.50:074][217]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.01.28-16.17.50:076][217]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.01.28-16.17.50:076][217]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.01.28-16.17.50:077][217]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.01.28-16.17.50:078][217]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.01.28-16.17.50:178][217]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.01.28-16.17.50:279][217]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.01.28-16.17.50:279][217]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.01.28-16.17.50:279][217]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.01.28-16.17.50:279][217]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.01.28-16.17.50:280][217]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.01.28-16.17.50:280][217]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.01.28-16.17.50:283][217]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.01.28-16.17.50:283][217]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.01.28-16.17.50:283][217]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.01.28-16.17.50:283][217]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.01.28-16.17.50:288][217]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.01.28-16.17.50:289][217]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.01.28-16.17.50:290][217]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.01.28-16.17.50:290][217]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.01.28-16.17.50:290][217]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.01.28-16.17.50:290][217]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.01.28-16.17.50:290][217]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.01.28-16.17.50:290][217]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.01.28-16.17.50:290][217]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.01.28-16.17.50:296][217]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.01.28-16.17.50:297][217]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.01.28-16.17.50:298][217]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.01.28-16.17.50:299][217]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.28-16.17.50:327][217]LogDerivedDataCache: Shutdown
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.28-16.17.50:327][217]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.28-16.17.50:328][217]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.28-16.17.50:329][217]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.01.28-16.17.50:330][217]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.01.28-16.17.50:331][217]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.01.28-16.17.50:331][217]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.28-16.17.50:331][217]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.28-16.17.50:331][217]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.28-16.17.50:331][217]LogOnline: Display: Unloading online subsystem: NULL
+[2018.01.28-16.17.50:331][217]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.28-16.17.50:331][217]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.28-16.17.50:331][217]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.28-16.17.50:331][217]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF781DA2A-469F-4858-678A-8687471C60A6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=266f4ff1477db0b614100e9038cef019%7C67c26a133988408189c96abcae18eb7b%7Cc603d86f-36e4-4957-834d-5c048fc22d8f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.28-16.17.50:367][217]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.28-16.17.50:371][217]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.01.28-16.17.50:372][217]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.01.28-16.17.50:372][217]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.01.28-16.17.50:372][217]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.01.28-16.17.50:372][217]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.01.28-16.17.50:372][217]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.01.28-16.17.50:372][217]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.28-16.17.50:376][217]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.28-16.17.50:386][217]LogExit: Exiting.
+[2018.01.28-16.17.50:424][217]Log file closed, 01/28/18 17:17:50
